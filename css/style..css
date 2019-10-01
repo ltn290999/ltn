@@ -3237,7 +3237,7 @@ input[type="button"].btn-block {
   display: none; }
 
 .tab-content > .active {
-  display: block; }
+  display: none; }
 
 .navbar {
   position: relative;
