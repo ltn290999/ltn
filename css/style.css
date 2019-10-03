@@ -81,7 +81,7 @@ a:hover {
 }
 
 .text-brand {
-  color: #000000;
+  color: chartreuse;
   font-size: 2rem;
   font-weight: 600;
 }
@@ -91,7 +91,7 @@ a:hover {
 }
 
 .color-b {
-  color: #2eca6a;
+  color: chartreuses;
 }
 
 .color-d {
@@ -519,7 +519,7 @@ a:hover {
 
 .navbar-default {
   transition: all .5s ease-in-out;
-  background-color: #ffffff;
+  background-color: black;
   padding-top: 28px;
   padding-bottom: 28px;
   -webkit-backface-visibility: hidden;
@@ -553,7 +553,7 @@ a:hover {
 .navbar-default.navbar-trans .nav-link,
 .navbar-default.navbar-reduce .nav-link {
   font-size: 1.1rem;
-  color: #000000;
+  color: chartreuse;
   font-weight: 600;
   letter-spacing: 0.030em;
   transition: all 0.1s ease-in-out;
@@ -618,7 +618,7 @@ a:hover {
 .navbar-default.navbar-trans .active > .nav-link,
 .navbar-default.navbar-trans .nav-link.show,
 .navbar-default.navbar-trans .nav-link.active {
-  color: #000000;
+  color: chartreuse;
 }
 
 .navbar-default.navbar-reduce {
@@ -628,7 +628,7 @@ a:hover {
 }
 
 .navbar-default.navbar-reduce .nav-link {
-  color: #000000;
+  color: chartreuse;
 }
 
 .navbar-default.navbar-reduce .nav-link:before {
@@ -643,11 +643,11 @@ a:hover {
 .navbar-default.navbar-reduce .active > .nav-link,
 .navbar-default.navbar-reduce .nav-link.show,
 .navbar-default.navbar-reduce .nav-link.active {
-  color: #000000;
+  color: chartreuse;
 }
 
 .navbar-default.navbar-reduce .navbar-brand {
-  color: #000000;
+  color:chartreuse;
 }
 
 .navbar-default .dropdown .dropdown-menu {
@@ -1531,7 +1531,7 @@ a:hover {
 }
 
 footer {
-  background: #f3f3f3;
+  background: black;
   text-align: center;
   padding: 30px 0;
 }
