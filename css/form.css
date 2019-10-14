@@ -21,7 +21,9 @@
     padding: 12px 12px 12px 0;
     display: inline-block;
   }
-  
+  .nhanvien  input[type=submit]{
+    background-color: rgb(27, 108, 230);
+  }
   input[type=button], input[type=submit], input[type=reset] {
     background-color: #ccc;
     border: none;
