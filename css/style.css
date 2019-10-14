@@ -552,7 +552,7 @@ a:hover {
 
 .navbar-default.navbar-trans .nav-link,
 .navbar-default.navbar-reduce .nav-link {
-  font-size: 1.1rem;
+  font-size: 22px;
   color: chartreuse;
   font-weight: 600;
   letter-spacing: 0.030em;
