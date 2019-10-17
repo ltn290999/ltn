@@ -889,7 +889,7 @@ a:hover {
 }
 
 .intro .carousel-item-a {
-  position: relative;
+  position: static;
   height: 100vh;
 }
 
