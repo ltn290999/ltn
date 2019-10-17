@@ -861,7 +861,7 @@ a:hover {
 
 .intro {
   height: 100vh;
-  position: relative;
+  position: static;
   color: #ffffff;
 }
 
