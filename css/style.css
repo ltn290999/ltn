@@ -2022,4 +2022,96 @@ footer .credits {
   .box-collapse .title-box-d .title-d {
     font-size: 1.3rem;
   }
+  .navbar1 {
+	background-color: #333!important;
+    line-height: 10px;
+}
+.navbar1 li a {
+    color: rgba(255,255,255,1) !important;
+	font-size: 20px;
+	text-transform: uppercase;
+}
+.navbar1 li a:hover {
+   background-color:#d1090b!important;
+}
+.navbar-dark{
+
+    padding-right: 15px;
+    padding-left: 15px;
+}
+.navbar-expand-lg .navbar-nav .nav-link {
+    padding-right: 3.5rem;
+    padding-left: 3.5rem;
+}
+.navbar-dark .navbar-nav .nav-link.active{
+	padding-top: 25px;
+    padding-bottom: 25px;
+    padding-right: 15px;
+    padding-left: 15px;
+	background-color:#d1090b;
+
+}
+.navbar-dark .navbar-nav .nav-link{
+	padding-top: 25px;
+    padding-bottom: 25px;
+    padding-right: 15px;
+    padding-left: 15px;
+}
+.tinesport h4{
+	font-size :30px;	
+}
+.entry-title a{
+	font-size :25px;	
+	 color:#d1090b !important;
+}
+.entry-title a:hover{
+	color: black !important;
+}
+.btn11 {
+	font-size : 38px;
+}
+.navbar2 {
+	background-color: #333!important;
+    line-height: 10px;
+}
+.navbar2 li a {
+    color: rgba(255,255,255,1) !important;
+	font-size: 20px;
+	text-transform: uppercase;
+}
+.navbar2 li a:hover {
+   background-color:#d1090b!important;
+}
+.form{
+	font-size:40px;
+
+}
+.form-inline{	
+	padding-left: 460px;	
+}
+.btn11{
+	color: white !important;
+	padding-top: 25px;
+    padding-bottom: 25px;
+    padding-right: 15px;
+    padding-left: 15px;
+	background-color:#e0a600 !important;
+}
+.btn11:hover{
+	color: black !important;
+}
+.btn10 {
+	 color: #ffffff !important;	
+	background-color: red;
+}
+.btn10:hover{
+	color: #242424 !important;
+}
+.btn9 {
+	 color: #ffffff !important;	
+	background-color: red;
+}
+.btn9:hover{
+	color: #242424 !important;
+}
 }
