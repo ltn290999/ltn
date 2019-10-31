@@ -6,8 +6,8 @@
 }
 .lab2 .nhanvien{
     width: 255px;
-    height: 325px;
-    margin-bottom: 5%;
+    height: 365px;
+    margin-bottom: 1%;
     border-color:teal;
     border-style: solid;
     border-width: 2px; 
@@ -15,6 +15,7 @@
     -moz-border-radius: 5px;
     border-radius: 5px;
     margin-right: 5%;
+    margin-top:3%;
 }
 
 .lab2 img{

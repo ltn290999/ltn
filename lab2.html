@@ -89,10 +89,10 @@
     <div class="nav nav-tabs">
         <ul class="nav nav-tabs">
             <li class="nav-item">
-                <a class="nav-link active" href="labs.html">Lab1</a>
+                <a class="nav-link" href="labs.html">Lab1</a>
             </li>
             <li class="nav-item">
-                <a class="nav-link" href="lab2.html">Lab2</a>
+                <a class="nav-link active" href="lab2.html">Lab2</a>
             </li>
             <li class="nav-item">
                 <a class="nav-link" href="lab3.html">Lab3</a>
@@ -104,7 +104,7 @@
                 <a class="nav-link" href="lab5.html">Lab5</a>
             </li>
             <li class="nav-item">
-                <a class="nav-link" href="lab6.html" >Lab6</a>
+                <a class="nav-link" href="lab6.html">Lab6</a>
             </li>
             <li class="nav-item">
                 <a class="nav-link" href="lab7.html">Lab7</a>
@@ -113,17 +113,19 @@
     </div>
 
     <!-- Tab links -->
-    <div class="tab" style="font-size: 18px">
-        <button class="tablinks" onclick="openCity(event, 'Requirement')" id="defaultOpen">Requirement</button>
-        <button class="tablinks" onclick="openCity(event, 'UseScenario')">UseScenario</button>
-        <button class="tablinks" onclick="openCity(event, 'Design')">Design</button>
-        <button class="tablinks" onclick="openCity(event, 'Implementation')">Implementation</button>
-    </div>
+    <ul class="nav nav-tabs mb-5" role="tablist">
+        <li class="nav-item"><a class="nav-link active" href="#Requirement" role="tab" data-toggle="tab">Requirement</a>
+        </li>
+        <li class="nav-item"><a class="nav-link" href="#UseScenario" role="tab" data-toggle="tab">UseScenario</a></li>
+        <li class="nav-item"><a class="nav-link" href="#Design" role="tab" data-toggle="tab">Design</a></li>
+        <li class="nav-item"><a class="nav-link" href="#Implementation" role="tab" data-toggle="tab">Implementation</a>
+        </li>
+    </ul>
 
     <!-- Tab content -->
-    <div id="Requirement" class="tabcontent">
-        <h3>Requirement</h3>
-        <div role="tabpanel" class="tab-pane active" id="requirement">
+    <div class="tab-content">
+        <div role="tabpanel" class="tab-pane active" id="Requirement">
+            <h3>Requirement</h3>
             <table class="table table-bordered">
                 <thead>
                     <tr>
@@ -154,145 +156,147 @@
                 </tbody>
             </table>
         </div>
-    </div>
-    <div id="UseScenario" class="tabcontent">
-        <h3>UserScenario</h3>
-        <img src="img/user.png">
-    </div>
-    <div id="Design" class="tabcontent">
-        <h3>Design</h3>
-        <div class="card-header">
-            <a class="collapsed card-link" data-toggle="collapse" href="#collapsethree">Thiết kế trên giấy</a>
+
+        <div role="tabpanel" class="tab-pane" id="UseScenario">
+
+            <h3>UserScenario</h3>
+            <img src="img/user.png">
         </div>
-        <h4>
-            <left> <b>-</b></left><br>
-        </h4>
-        <img src="" height="600" width="600"><button style="color: chocolate"><a href="" download="">Download</a>
-        </button><br>
+        <div role="tabpanel" class="tab-pane" id="Design">
+            <h3>Design</h3>
+            <div class="card-header">
+                <a class="collapsed card-link" data-toggle="collapse" href="#collapsethree">Thiết kế trên giấy</a>
+            </div>
+            <h4>
+                <left> <b>-</b></left><br>
+            </h4>
+            <img src="" height="600" width="600"><button style="color: chocolate"><a href="" download="">Download</a>
+            </button><br>
 
-        <hr>
+            <hr>
 
-        <div class="card-header">
-            <a class="collapsed card-link" data-toggle="collapse" href="#collapsethree">Thiết kế trên Figma</a>
+            <div class="card-header">
+                <a class="collapsed card-link" data-toggle="collapse" href="#collapsethree">Thiết kế trên Figma</a>
+            </div>
+
+            <h4>
+                <left> <b>-</b></left><br>
+            </h4>
+            <img src="img/lab2.jpg" height="600" width="600"><button style="color: chocolate"><a href="img/lab2.png"
+                    download="">Download</a>
+            </button><br>
+            <hr>
+            <h4>
+                <left> <b>Download</b></left><br>
+                <button style="color: chocolate"><a href="lib/17130130_design.zip">Download</a> </button>
+            </h4>
         </div>
-
-        <h4>
-            <left> <b>-</b></left><br>
-        </h4>
-        <img src="img/lab2.jpg" height="600" width="600"><button style="color: chocolate"><a href="img/lab2.png"
-                download="">Download</a>
-        </button><br>
-        <hr>
-        <h4>
-            <left> <b>Download</b></left><br>
-            <button style="color: chocolate"><a href="lib/17130130_design.zip">Download</a> </button>
-        </h4>
-    </div>
-
-    <div id="Implementation" class="tabcontent" style="font-size: 15px">
-       <div class="" style="background-color: lightblue">
-        <div class="lab2">
-            <div class="nhanvien"> 
-                <img src="img/iphone11.webp">
-                <p>Iphone 11</p>
-                <p style="color: red">21.990.000 ₫</p>
-                <a href="">
-                    <input type="submit" value="Thông tin chi tiết" style="width:245px">
-                    <div class="">
-                        <a href=""><input type="submit" value="Mua" style="width:115px"></a>
-                        <a href=""><input type="submit" value="Trả góp" style="width:120px"></a>
+        <div id="Implementation" class="tabcontent">
+            <h1><center>Cửa hàng di động</center></h1>
+            <div class="" style="background-color: lightblue">
+                <div class="lab2">
+                    <div class="nhanvien">
+                        <img src="img/iphone11.webp">
+                        <p>Iphone 11</p>
+                        <p style="color: red">21.990.000 ₫</p>
+                        <a href="">
+                            <input type="submit" value="Thông tin chi tiết" style="width:245px">
+                            <div class="">
+                                <a href=""><input type="submit" value="Mua" style="width:115px"></a>
+                                <a href=""><input type="submit" value="Trả góp" style="width:120px"></a>
+                            </div>
+                        </a>
                     </div>
-                </a>
-            </div>
-            <div class="nhanvien"> 
-                <img src="img/iphone-11-pro.webp">
-                <p>Iphone 11 Pro</p>
-                <p style="color: red">30.990.000 ₫</p>
-                <a href="" class="container-1">
-                    <input type="submit" value="Thông tin chi tiết" style="width:245px">
-                    <div class="">
-                        <a href=""><input type="submit" value="Mua" style="width:115px"></a>
-                        <a href=""><input type="submit" value="Trả góp" style="width:120px"></a>
+                    <div class="nhanvien">
+                        <img src="img/iphone-11-pro.webp">
+                        <p>Iphone 11 Pro</p>
+                        <p style="color: red">30.990.000 ₫</p>
+                        <a href="" class="container-1">
+                            <input type="submit" value="Thông tin chi tiết" style="width:245px">
+                            <div class="">
+                                <a href=""><input type="submit" value="Mua" style="width:115px"></a>
+                                <a href=""><input type="submit" value="Trả góp" style="width:120px"></a>
+                            </div>
+                        </a>
                     </div>
-                </a>    
-            </div>
-            <div class="nhanvien"> 
-                <img src="img/iphone-11-pro-max.webp">
-                <p>Iphone 11 Pro Max</p>
-                <p style="color: red">33.990.000 ₫</p>
-                <a href="">
-                    <input type="submit" value="Thông tin chi tiết" style="width:245px">
-                    <div class="">
-                        <a href=""><input type="submit" value="Mua" style="width:115px"></a>
-                        <a href=""><input type="submit" value="Trả góp" style="width:120px"></a>
+                    <div class="nhanvien">
+                        <img src="img/iphone-11-pro-max.webp">
+                        <p>Iphone 11 Pro Max</p>
+                        <p style="color: red">33.990.000 ₫</p>
+                        <a href="">
+                            <input type="submit" value="Thông tin chi tiết" style="width:245px">
+                            <div class="">
+                                <a href=""><input type="submit" value="Mua" style="width:115px"></a>
+                                <a href=""><input type="submit" value="Trả góp" style="width:120px"></a>
+                            </div>
+                        </a>
                     </div>
-                </a>
-            </div>
-            <div class="nhanvien"> 
-                <img src="img/iphone_xs_max.jpg">
-                <p>Iphone XS Max</p>
-                <p style="color: red">26.500.000 ₫</p>
-                <a href="">
-                    <input type="submit" value="Thông tin chi tiết" style="width:245px">
-                    <div class="">
-                        <a href=""><input type="submit" value="Mua" style="width:115px"></a>
-                        <a href=""><input type="submit" value="Trả góp" style="width:120px"></a>
+                    <div class="nhanvien">
+                        <img src="img/iphone_xs_max.jpg">
+                        <p>Iphone XS Max</p>
+                        <p style="color: red">26.500.000 ₫</p>
+                        <a href="">
+                            <input type="submit" value="Thông tin chi tiết" style="width:245px">
+                            <div class="">
+                                <a href=""><input type="submit" value="Mua" style="width:115px"></a>
+                                <a href=""><input type="submit" value="Trả góp" style="width:120px"></a>
+                            </div>
+                        </a>
                     </div>
-                </a>
-            </div>
-            <div class="nhanvien"> 
-                <img src="img/iphone_xs_64gb.jpg">
-                <p>Iphone XS</p>
-                <p style="color: red">24.000.000 ₫</p>
-                <a href="">
-                    <input type="submit" value="Thông tin chi tiết" style="width:245px">
-                    <div class="">
-                        <a href=""><input type="submit" value="Mua" style="width:115px"></a>
-                        <a href=""><input type="submit" value="Trả góp" style="width:120px"></a>
+                    <div class="nhanvien">
+                        <img src="img/iphone_xs_64gb.jpg">
+                        <p>Iphone XS</p>
+                        <p style="color: red">24.000.000 ₫</p>
+                        <a href="">
+                            <input type="submit" value="Thông tin chi tiết" style="width:245px">
+                            <div class="">
+                                <a href=""><input type="submit" value="Mua" style="width:115px"></a>
+                                <a href=""><input type="submit" value="Trả góp" style="width:120px"></a>
+                            </div>
+                        </a>
                     </div>
-                </a>
-            </div>
-            <div class="nhanvien"> 
-                <img src="img/iphone_xr_64gb.webp">
-                <p>Iphone XR</p>
-                <p style="color: red">17.200.000 ₫</p>
-                <a href="">
-                    <input type="submit" value="Thông tin chi tiết" style="width:245px">
-                    <div class="">
-                        <a href=""><input type="submit" value="Mua" style="width:115px"></a>
-                        <a href=""><input type="submit" value="Trả góp" style="width:120px"></a>
+                    <div class="nhanvien">
+                        <img src="img/iphone_xr_64gb.webp">
+                        <p>Iphone XR</p>
+                        <p style="color: red">17.200.000 ₫</p>
+                        <a href="">
+                            <input type="submit" value="Thông tin chi tiết" style="width:245px">
+                            <div class="">
+                                <a href=""><input type="submit" value="Mua" style="width:115px"></a>
+                                <a href=""><input type="submit" value="Trả góp" style="width:120px"></a>
+                            </div>
+                        </a>
                     </div>
-                </a>
-            </div>
-            <div class="nhanvien"> 
-                <img src="img/iphone_7plus.jpg">
-                <p>Iphone 7Plus</p>
-                <p style="color: red">12.300.000 ₫</p>
-                <a href="">
-                    <input type="submit" value="Thông tin chi tiết" style="width:245px">
-                    <div class="">
-                        <a href=""><input type="submit" value="Mua" style="width:115px"></a>
-                        <a href=""><input type="submit" value="Trả góp" style="width:120px"></a>
+                    <div class="nhanvien">
+                        <img src="img/iphone_7plus.jpg">
+                        <p>Iphone 7Plus</p>
+                        <p style="color: red">12.300.000 ₫</p>
+                        <a href="">
+                            <input type="submit" value="Thông tin chi tiết" style="width:245px">
+                            <div class="">
+                                <a href=""><input type="submit" value="Mua" style="width:115px"></a>
+                                <a href=""><input type="submit" value="Trả góp" style="width:120px"></a>
+                            </div>
+                        </a>
                     </div>
-                </a>
-            </div>
-            <div class="nhanvien"> 
-                <img src="img/iphone_8_plus_64gb.jpg">
-                <p>Iphone 8Plus</p>
-                <p style="color: red">16.800.000 ₫</p>
-                <a href="">
-                      <input type="submit" value="Thông tin chi tiết" style="width:245px">
-                    <div class="">
-                        <a href=""><input type="submit" value="Mua" style="width:115px"></a>
-                        <a href=""><input type="submit" value="Trả góp" style="width:120px"></a>
+                    <div class="nhanvien">
+                        <img src="img/iphone_8_plus_64gb.jpg">
+                        <p>Iphone 8Plus</p>
+                        <p style="color: red">16.800.000 ₫</p>
+                        <a href="">
+                            <input type="submit" value="Thông tin chi tiết" style="width:245px">
+                            <div class="">
+                                <a href=""><input type="submit" value="Mua" style="width:115px"></a>
+                                <a href=""><input type="submit" value="Trả góp" style="width:120px"></a>
+                            </div>
+                        </a>
                     </div>
-                </a>
+                </div>
+                <br>
+                <br>
+                <br>
             </div>
         </div>
-        <br>
-        <br>
-        <br>
-    </div>
     </div>
 
 
